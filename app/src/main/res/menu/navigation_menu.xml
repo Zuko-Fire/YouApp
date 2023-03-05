@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/wordAdd"
+    android:title="@string/add_word"
+    ></item>
+    <item
+        android:id="@+id/myLib"
+        android:title="@string/my_lib"
+        ></item>
+    <item
+        android:id="@+id/generateWords"
+        android:title="@string/generate"
+        ></item>
+</menu>

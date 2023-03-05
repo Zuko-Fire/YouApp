@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/wordAdd">
+
+
+    <fragment
+        android:id="@+id/wordAdd"
+        android:name="com.example.youapp.addWords"
+        android:label="fragment_add_words"
+        tools:layout="@layout/fragment_add_words" />
+    <fragment
+        android:id="@+id/generateWords"
+        android:name="com.example.youapp.generateWords"
+        android:label="fragment_generate_words"
+        tools:layout="@layout/fragment_generate_words" />
+    <fragment
+        android:id="@+id/myLib"
+        android:name="com.example.youapp.LibWordsFragment"
+        android:label="fragment_lib_words"
+        tools:layout="@layout/fragment_lib_words" />
+</navigation>
